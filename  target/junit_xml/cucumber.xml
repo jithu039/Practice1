@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.536" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="test flipkart login" name="flipkart login testing - Example #1.1" time="6.395">
+<system-out><![CDATA[
+Given i launch google chrome browser........................................passed
+When i open the flipkart homepage...........................................passed
+And user clicks on login button.............................................passed
+Then give the "9398266874"..................................................passed
+Then click on request otp btn...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

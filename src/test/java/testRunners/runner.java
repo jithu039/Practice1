@@ -7,11 +7,12 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"feature/opengoogle.feature"},
+@CucumberOptions(features = {"feature/flipkart1.feature"},
 glue= {"stepDefinitions"}, 
-plugin= {"pretty", "json:target/JSONReports/report.json", "junit: target/junit_xml/cucumber.xml"},
+plugin= {"pretty", "html: target/CucumberReports/CucumberReport1","json:target/JSONReports/report.json", "junit: target/junit_xml/cucumber.xml"},
+stepNotifications= true,
 monochrome = false,
-dryRun = true
+dryRun = false
 )
 
 public class runner {
